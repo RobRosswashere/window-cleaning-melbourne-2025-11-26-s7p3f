@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thousands of home-owners across Melbourne choose Acorn Window Cleaning to regularly clean their windows. We offer internal and external window cleaning – or you select the windows you wish to have cleaned. In addition we can clean your fly screens, mirrors, glass balconies and balustrades, gutters, solar panels and glass pool fences.">
+    <meta name="keywords" content="residential window cleaning Melbourne, home window cleaning, internal external windows, glass cleaning">
+    <meta name="author" content="Acorn Clean">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Residential Window Cleaning Melbourne - Professional Home Services">
+    <meta property="og:description" content="Professional home window cleaning services in Melbourne. Internal, external, mirrors, screens and more. Fully insured and eco-friendly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://acornclean.com.au/residentialwindowcleaningmelbourne">
+    <title>Residential Window Cleaning Melbourne | Professional Home Services | Acorn Clean</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-btn {
+            background: linear-gradient(135deg, #000000 0%, #4A90E2 100%);
+            transition: all 0.3s ease-out;
+        }
+        
+        .gradient-btn:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+            box-shadow: 0 20px 40px rgba(74, 144, 226, 0.3);
+        }
+        
+        .gradient-btn:active {
+            transform: scale(0.98);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(0, 0, 0, 0.05) 100%);
+            border-radius: 12px;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease-out;
+            stroke-width: 2;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease-out;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .star-rating {
+            color: #FFD700;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease-out;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.02) 0%, rgba(74, 144, 226, 0.05) 100%);
+        }
+        
+        .section-divider {
+            background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.1) 50%, transparent 100%);
+            height: 1px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-black to-blue-600 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">AC</span>
+                </div>
+                <span class="font-bold text-lg text-black hidden sm:inline">Acorn Clean</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
+                <a href="index.html#features" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Features</a>
+                <a href="index.html#benefits" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                <a href="index.html#testimonials" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="index.html#faq" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                <a href="index.html#about" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">About</a>
+                <a href="residentialwindowcleaningmelbourne.html" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Residential</a>
+            </div>
+            
+            <!-- CTA Button Desktop -->
+            <div class="hidden md:block">
+                <a href="https://acornclean.com.au" class="gradient-btn px-8 py-3 rounded-full text-white font-semibold text-sm">
+                    Get Started
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-gray-700 hover:text-blue-600 transition-colors duration-300" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-4 py-4 space-y-2">
+                <a href="index.html#features" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Features</a>
+                <a href="index.html#benefits" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Benefits</a>
+                <a href="index.html#testimonials" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Testimonials</a>
+                <a href="index.html#faq" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">FAQ</a>
+                <a href="index.html#about" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">About</a>
+                <a href="residentialwindowcleaningmelbourne.html" class="block px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Residential</a>
+                <div class="pt-2 border-t border-gray-100">
+                    <a href="https://acornclean.com.au" class="block gradient-btn px-8 py-3 rounded-full text-white font-semibold text-sm text-center">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-16 md:py-24 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-6 md:space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tight leading-tight">
+                            Residential Window Cleaning Melbourne
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-600 font-medium leading-relaxed">
+                            Professional Home Window Cleaning Services
+                        </p>
+                    </div>
+                    
+                    <p class="text-base md:text-lg text-gray-600 leading-relaxed max-w-lg">
+                        Thousands of home-owners across Melbourne choose Acorn Clean for their residential window cleaning needs. From internal windows to external glass, we deliver crystal-clear results with meticulous attention to detail. Fast, friendly, and considerate service you can rely on.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="https://acornclean.com.au" class="gradient-btn px-8 py-4 rounded-full text-white font-semibold text-base text-center inline-block">
+                            Request a Quote
+                        </a>
+                        <a href="#services" class="px-8 py-4 rounded-full border-2 border-black text-black font-semibold text-base hover:bg-gray-50 transition-all duration-300 text-center inline-block">
+                            Learn More
+                        </a>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-6 pt-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i data-lucide="check" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-black">Expert Team</p>
+                                <p class="text-sm text-gray-600">Fully Trained</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i data-lucide="star" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-black">Eco-Friendly</p>
+                                <p class="text-sm text-gray-600">Safe Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual -->
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-3xl"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="space-y-6 w-full px-8">
+                                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center">
+                                            <i data-lucide="sparkles" class="text-blue-600 w-8 h-8"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-black">Pristine Windows</p>
+                                            <p class="text-sm text-gray-600">Streak-Free Results</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center">
+                                            <i data-lucide="home" class="text-blue-600 w-8 h-8"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-black">Home Care</p>
+                                            <p class="text-sm text-gray-600">Your Satisfaction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center">
+                                            <i data-lucide="leaf" class="text-blue-600 w-8 h-8"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-black">Eco-Friendly</p>
+                                            <p class="text-sm text-gray-600">Safe & Green</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 md:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="text-center mb-12 md:mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tight">
+                    Comprehensive Cleaning Services
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Whatever your residence, from one bedroom flat to large period homestead, we have you covered
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <!-- Service 1 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="windows" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Internal Windows</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Professional cleaning of internal windows, frames, sills and ledges. We ensure every interior surface sparkles and enhances the beauty of your home's interior.
+                    </p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="glass-water" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">External Windows</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Expert external window cleaning that removes dirt, grime, and weather-related buildup. Restore your home's curb appeal with our thorough exterior cleaning service.
+                    </p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="rectangle-vertical" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Fly Screen Cleaning</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Keep your fly screens clean and functional. We carefully clean screens to allow fresh air while keeping insects out. Includes frame cleaning.
+                    </p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="mirror" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Mirror Cleaning</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Streak-free mirror cleaning for bathrooms, bedrooms, and living areas. We use professional techniques to leave mirrors crystal-clear and spotless.
+                    </p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="building-2" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Glass Balconies & Balustrades</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Professional cleaning of glass balconies and balustrades. We safely clean these features to maintain their transparency and aesthetic appeal.
+                    </p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="droplets" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Glass Pool Fences</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Keep your glass pool fencing crystal-clear and safe. We clean both sides to ensure unobstructed views and maintain the safety features of your pool area.
+                    </p>
+                </div>
+                
+                <!-- Service 7 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="sun" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Skylights</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Safe and professional skylight cleaning that maximizes natural light in your home. We handle high and difficult-to-reach skylights with expert care.
+                    </p>
+                </div>
+                
+                <!-- Service 8 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="zap" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Solar Panel Cleaning</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Maintain your solar panel efficiency with professional cleaning. We remove dust and debris to optimize energy production and extend panel lifespan.
+                    </p>
+                </div>
+                
+                <!-- Service 9 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="feature-icon mb-6">
+                        <i data-lucide="home" class="text-blue-600 w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Additional Services</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cobweb removal, Alucobond cleaning, external wall cleaning, LED light cleaning, glass reconditioning, conservatories, and bay windows. We do it all!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="why-choose" class="py-12 md:py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="text-center mb-12 md:mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tight">
+                    Why Choose Acorn Clean
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience the difference with our professional residential services
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
+                <!-- Feature Image -->
+                <div class="hidden lg:block lg:row-span-3">
+                    <div class="w-full h-full rounded-3xl overflow-hidden shadow-xl border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80" alt="Professional cleaner washing home windows" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                
+                <!-- Feature 1 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="check-circle" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Easy Online Booking</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Schedule your window cleaning with just a few clicks. Our online booking system is simple, secure, and convenient. Enjoy flexible scheduling and automated reminder services.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="shield-check" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Fully Accredited & Insured</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Complete peace of mind with our full accreditation, comprehensive insurance coverage, and OH&S compliance. We meet and exceed all industry standards for your protection.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="leaf" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Eco-Friendly Solutions</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We use environmentally responsible cleaning solutions and sustainable processes. Safe for your family, pets, and the planet without compromising on cleaning power.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="heart" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Your Satisfaction Guaranteed</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We prioritize your satisfaction and always go that extra mile. Considerate service that respects your property and your peace of mind. That's our promise.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="users" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Professional Team</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Fast, friendly, and efficient service from trained professionals. Our team is dedicated to bringing your glass back to life, free of dust, smudges, and streaks.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="flex gap-6 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-blue-100">
+                            <i data-lucide="credit-card" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-bold text-black mb-2">Flexible Payment Options</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Multiple payment solutions for your convenience. Easy online payment, flexible scheduling, and transparent pricing with no hidden fees.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-16 md:py-24 relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1600585154340-0ef3c08c0632?w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/60"></div>
+        <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+            <div class="text-center space-y-6 md:space-y-8">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight">
+                    Ready for Sparkling Clean Windows?
+                </h2>
+                <p class="text-lg md:text-xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
+                    Join thousands of satisfied home-owners across Melbourne who trust Acorn Clean for their residential window cleaning needs. Experience the difference today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="https://acornclean.com.au" class="gradient-btn px-8 py-4 rounded-full text-white font-semibold text-base text-center inline-block">
+                        Book Your Service
+                    </a>
+                    <a href="mailto:info@acornclean.com.au" class="px-8 py-4 rounded-full border-2 border-white text-white font-semibold text-base hover:bg-white/10 transition-all duration-300 text-center inline-block">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12 md:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="text-center mb-12 md:mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tight">
+                    What Our Residential Clients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Trusted by thousands of home-owners across Melbourne
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 shadow-md">
+                    <div class="flex items-center space-x-1 mb-4">
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Acorn Clean transformed our home's appearance. The windows are sparkling, and the team was so respectful of our property. Highly recommend!"
+                    </p>
+                    <div>
+                        <p class="font-semibold text-black">Margaret Johnson</p>
+                        <p class="text-sm text-gray-600">Homeowner, Toorak</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 shadow-md">
+                    <div class="flex items-center space-x-1 mb-4">
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Fast, friendly, and efficient. They cleaned our entire home including skylights and pool fencing. Best decision we made. Will use them again!"
+                    </p>
+                    <div>
+                        <p class="font-semibold text-black">Robert Chen</p>
+                        <p class="text-sm text-gray-600">Homeowner, Brighton</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 shadow-md">
+                    <div class="flex items-center space-x-1 mb-4">
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Professional, reliable, and affordable. The online booking was so easy, and they arrived exactly on time. The results are fantastic!"
+                    </p>
+                    <div>
+                        <p class="font-semibold text-black">Lisa Patterson</p>
+                        <p class="text-sm text-gray-600">Homeowner, Camberwell</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 shadow-md">
+                    <div class="flex items-center space-x-1 mb-4">
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="star-rating w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Excellent service! They even cleaned our mirrors and removed cobwebs. The eco-friendly products are safe for our kids and pets. Highly satisfied!"
+                    </p>
+                    <div>
+                        <p class="font-semibold text-black">David Williams</p>
+                        <p class="text-sm text-gray-600">Homeowner, Kew</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-12 md:py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 md:px-8">
+            <div class="text-center mb-12 md:mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Everything you need to know about our residential services
+                </p>
+            </div>
+            
+            <div class="space-y-4 md:space-y-6">
+                <!-- FAQ 1 -->
+                <div class="faq-item bg-white rounded-2xl overflow-hidden border border-gray-200">
+                    <button class="faq-question w-full px-6 md:px-8 py-6 md:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer text-left">
+                        <span class="text-lg md:text-xl font-bold text-black pr-4">How often should I have my home windows cleaned?</span>
+                        <i data-lucide="chevron-down" class="faq-icon text-blue-600 flex-shrink-0 w-6 h-6"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-6 md:pb-7 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            We recommend professional window cleaning every 6-12 months for most residential properties. However, the ideal frequency depends on your location, environmental factors, and personal preferences. Homes near the coast or in areas with high pollution may benefit from more frequent cleaning. We can help you establish a maintenance schedule that works best for your home.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="faq-item bg-white rounded-2xl overflow-hidden border border-gray-200">
+                    <button class="faq-question w-full px-6 md:px-8 py-6 md:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer text-left">
+                        <span class="text-lg md:text-xl font-bold text-black pr-4">Are your cleaning products safe for my family and pets?</span>
+                        <i data-lucide="chevron-down" class="faq-icon text-blue-600 flex-shrink-0 w-6 h-6"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-6 md:pb-7 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Absolutely! We exclusively use eco-friendly, biodegradable cleaning solutions that are completely safe for children, pets, and plants. Our products are non-toxic and environmentally responsible, ensuring your home remains healthy while your windows get spotlessly clean. All our cleaning materials comply with Australian environmental and safety standards.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="faq-item bg-white rounded-2xl overflow-hidden border border-gray-200">
+                    <button class="faq-question w-full px-6 md:px-8 py-6 md:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer text-left">
+                        <span class="text-lg md:text-xl font-bold text-black pr-4">Can you clean skylights and high windows safely?</span>
+                        <i data-lucide="chevron-down" class="faq-icon text-blue-600 flex-shrink-0 w-6 h-6"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-6 md:pb-7 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, we specialize in cleaning skylights and difficult-to-reach windows. Our team is fully trained and certified for working at heights, equipped with professional-grade equipment and strict safety protocols. We handle all types of residential window cleaning with expert care and full insurance coverage.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="faq-item bg-white rounded-2xl overflow-hidden border border-gray-200">
+                    <button class="faq-question w-full px-6 md:px-8 py-6 md:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer text-left">
+                        <span class="text-lg md:text-xl font-bold text-black pr-4">Do you clean mirrors and glass balconies?</span>
+                        <i data-lucide="chevron-down" class="faq-icon text-blue-600 flex-shrink-0 w-6 h-6"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-6 md:pb-7 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Absolutely! We offer comprehensive glass cleaning services including mirrors, glass balconies, balustrades, pool fences, and much more. Whether you want your entire home cleaned or just specific areas, we can customize a package that meets your needs. Simply let us know what you'd like cleaned when you book.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="faq-item bg-white rounded-2xl overflow-hidden border border-gray-200">
+                    <button class="faq-question w-full px-6 md:px-8 py-6 md:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer text-left">
+                        <span class="text-lg md:text-xl font-bold text-black pr-4">How do I book a window cleaning appointment?</span>
+                        <i data-lucide="chevron-down" class="faq-icon text-blue-600 flex-shrink-0 w-6 h-6"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-6 md:pb-7 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Booking is easy! Visit our website at acornclean.com.au to book online, or contact us at info@acornclean.com.au. Our online booking system is simple, secure, and convenient. You'll receive confirmation and reminder notifications. We offer flexible scheduling to suit your availability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-8 md:mb-12">
+                <!-- Footer Column 1 -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-white to-blue-400 rounded-lg flex items-center justify-center">
+                            <span class="text-black font-bold text-lg">AC</span>
+                        </div>
+                        <span class="font-bold text-lg">Acorn Clean</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Professional residential window cleaning services trusted by thousands of home-owners across Melbourne.
+                    </p>
+                    <div class="flex space-x-4 pt-4">
+                        <a href="https://facebook.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f w-5 h-5"></i>
+                        </a>
+                        <a href="https://twitter.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter w-5 h-5"></i>
+                        </a>
+                        <a href="https://instagram.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram w-5 h-5"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Footer Column 2 -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-lg text-white">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="index.html#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="index.html#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="index.html#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 3 -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-lg text-white">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 4 -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-lg text-white">Contact</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-blue-400 flex-shrink-0 mt-1"></i>
+                            <div>
+                                <p class="text-gray-400">Email</p>
+                                <a href="mailto:info@acornclean.com.au" class="text-white hover:text-blue-400 transition-colors duration-300 font-medium">info@acornclean.com.au</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i data-lucide="globe" class="w-5 h-5 text-blue-400 flex-shrink-0 mt-1"></i>
+                            <div>
+                                <p class="text-gray-400">Website</p>
+                                <a href="https://acornclean.com.au" class="text-white hover:text-blue-400 transition-colors duration-300 font-medium">acornclean.com.au</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <p class="text-gray-400 text-sm">
+                        &copy; 2025 Acorn Clean. All rights reserved.
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        Professional Residential Window Cleaning Services in Melbourne
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
